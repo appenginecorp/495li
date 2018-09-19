@@ -382,9 +382,13 @@ p.lead {
   background: rgba(70, 127, 191, 0.9);
 }
 
+.icon-outlined img {
+  padding:4mm;
+}
+
 .icon-outlined {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 90px;
   line-height: 80px;
   text-align: center;
   display: inline-block;
