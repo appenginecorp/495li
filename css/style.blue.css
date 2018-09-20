@@ -1013,14 +1013,16 @@ header.nav-holder.sticky {
   letter-spacing: 0.1em;
 }
 
-.home-carousel .homepage h1 {
-  border-bottom: 2mm ridge rgb(50, 118, 220, .6);
 
+/*.home-carousel .homepage h1 {
+  border-bottom: 2mm ridge rgb(50, 118, 220, .6);
 }
+
 .home-carousel .homeheader h1 {
   border-bottom: 2mm solid rgb(50, 118, 220, .6);
   text-align: center;
 }
+*/
 
 .home-carousel .homeheader span.large {
   font-size: 120%;
