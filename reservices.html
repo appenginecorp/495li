@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Universal - All In 1 Template</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <!-- Google fonts - Roboto-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,700">
+    <!-- Bootstrap Select-->
+    <link rel="stylesheet" href="vendor/bootstrap-select/css/bootstrap-select.min.css">
+    <!-- owl carousel-->
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.css">
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.css">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Favicon and apple touch icons-->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/apple-touch-icon-152x152.png">
+    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+  </head>
+  <body>
+    <div id="all">
+      <!-- Top bar-->
+      <div class="top-bar">
+        <div class="container">
+          <div class="row d-flex align-items-center">
+            <div class="col-md-6 d-md-block d-none">
+              <p>Contact us on +420 777 555 333 or hello@universal.com.</p>
+            </div>
+            <div class="col-md-6">
+              <div class="d-flex justify-content-md-end justify-content-between">
+                <ul class="list-inline contact-info d-block d-md-none">
+                  <li class="list-inline-item"><a href="#"><i class="fa fa-phone"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fa fa-envelope"></i></a></li>
+                </ul>
+                <div class="login"><a href="#" data-toggle="modal" data-target="#login-modal" class="login-btn"><i class="fa fa-sign-in"></i><span class="d-none d-md-inline-block">Sign In</span></a><a href="customer-register.html" class="signup-btn"><i class="fa fa-user"></i><span class="d-none d-md-inline-block">Sign Up</span></a></div>
+                <ul class="social-custom list-inline">
+                  <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fa fa-envelope"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Top bar end-->
+      <!-- Login Modal-->
+      <div id="login-modal" tabindex="-1" role="dialog" aria-labelledby="login-modalLabel" aria-hidden="true" class="modal fade">
+        <div role="document" class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 id="login-modalLabel" class="modal-title">Customer Login</h4>
+              <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button>
+            </div>
+            <div class="modal-body">
+              <form action="customer-orders.html" method="get">
+                <div class="form-group">
+                  <input id="email_modal" type="text" placeholder="email" class="form-control">
+                </div>
+                <div class="form-group">
+                  <input id="password_modal" type="password" placeholder="password" class="form-control">
+                </div>
+                <p class="text-center">
+                  <button class="btn btn-template-outlined"><i class="fa fa-sign-in"></i> Log in</button>
+                </p>
+              </form>
+              <p class="text-center text-muted">Not registered yet?</p>
+              <p class="text-center text-muted"><a href="customer-register.html"><strong>Register now</strong></a>! It is easy and done in 1 minute and gives you access to special discounts and much more!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Login modal end-->
+      <!-- Navbar Start-->
+      <header class="nav-holder make-sticky">
+        <div id="navbar" role="navigation" class="navbar navbar-expand-lg">
+          <div class="container"><a href="index.html" class="navbar-brand home"><img src="img/logo.png" alt="Universal logo" class="d-none d-md-inline-block"><img src="img/logo-small.png" alt="Universal logo" class="d-inline-block d-md-none"><span class="sr-only">Universal - go to homepage</span></a>
+            <button type="button" data-toggle="collapse" data-target="#navigation" class="navbar-toggler btn-template-outlined"><span class="sr-only">Toggle navigation</span><i class="fa fa-align-justify"></i></button>
+            <div id="navigation" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item dropdown active"><a href="javascript: void(0)" data-toggle="dropdown" class="dropdown-toggle">Home <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item"><a href="index.html" class="nav-link">Option 1: Default Page</a></li>
+                    <li class="dropdown-item"><a href="index2.html" class="nav-link">Option 2: Application</a></li>
+                    <li class="dropdown-item"><a href="index3.html" class="nav-link">Option 3: Startup</a></li>
+                    <li class="dropdown-item"><a href="index4.html" class="nav-link">Option 4: Agency</a></li>
+                    <li class="dropdown-item"><a href="index5.html" class="nav-link">Option 5: Portfolio</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown menu-large"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Features<b class="caret"></b></a>
+                  <ul class="dropdown-menu megamenu">
+                    <li>
+                      <div class="row">
+                        <div class="col-lg-6"><img src="img/template-easy-customize.png" alt="" class="img-fluid d-none d-lg-block"></div>
+                        <div class="col-lg-3 col-md-6">
+                          <h5>Shortcodes</h5>
+                          <ul class="list-unstyled mb-3">
+                            <li class="nav-item"><a href="template-accordions.html" class="nav-link">Accordions</a></li>
+                            <li class="nav-item"><a href="template-alerts.html" class="nav-link">Alerts</a></li>
+                            <li class="nav-item"><a href="template-buttons.html" class="nav-link">Buttons</a></li>
+                            <li class="nav-item"><a href="template-content-boxes.html" class="nav-link">Content boxes</a></li>
+                            <li class="nav-item"><a href="template-blocks.html" class="nav-link">Horizontal blocks</a></li>
+                            <li class="nav-item"><a href="template-pagination.html" class="nav-link">Pagination</a></li>
+                            <li class="nav-item"><a href="template-tabs.html" class="nav-link">Tabs</a></li>
+                            <li class="nav-item"><a href="template-typography.html" class="nav-link">Typography</a></li>
+                          </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                          <h5>Header variations</h5>
+                          <ul class="list-unstyled mb-3">
+                            <li class="nav-item"><a href="template-header-default.html" class="nav-link">Default sticky header</a></li>
+                            <li class="nav-item"><a href="template-header-nosticky.html" class="nav-link">No sticky header</a></li>
+                            <li class="nav-item"><a href="template-header-light.html" class="nav-link">Light header</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown menu-large"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Portfolio <b class="caret"></b></a>
+                  <ul class="dropdown-menu megamenu">
+                    <li>
+                      <div class="row">
+                        <div class="col-lg-6"><img src="img/template-homepage.png" alt="" class="img-fluid d-none d-lg-block"></div>
+                        <div class="col-lg-3 col-md-6">
+                          <h5>Portfolio</h5>
+                          <ul class="list-unstyled mb-3">
+                            <li class="nav-item"><a href="portfolio-2.html" class="nav-link">2 columns</a></li>
+                            <li class="nav-item"><a href="portfolio-no-space-2.html" class="nav-link">2 columns with negative space</a></li>
+                            <li class="nav-item"><a href="portfolio-3.html" class="nav-link">3 columns</a></li>
+                            <li class="nav-item"><a href="portfolio-no-space-3.html" class="nav-link">3 columns with negative space</a></li>
+                            <li class="nav-item"><a href="portfolio-4.html" class="nav-link">4 columns</a></li>
+                            <li class="nav-item"><a href="portfolio-no-space-4.html" class="nav-link">4 columns with negative space</a></li>
+                            <li class="nav-item"><a href="portfolio-detail.html" class="nav-link">Portfolio - detail</a></li>
+                            <li class="nav-item"><a href="portfolio-detail-2.html" class="nav-link">Portfolio - detail 2</a></li>
+                          </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                          <h5>About</h5>
+                          <ul class="list-unstyled mb-3">
+                            <li class="nav-item"><a href="about.html" class="nav-link">About us</a></li>
+                            <li class="nav-item"><a href="team.html" class="nav-link">Our team</a></li>
+                            <li class="nav-item"><a href="team-member.html" class="nav-link">Team member</a></li>
+                            <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+                          </ul>
+                          <h5>Marketing</h5>
+                          <ul class="list-unstyled">
+                            <li class="nav-item"><a href="packages.html" class="nav-link">Packages</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+                <!-- ========== FULL WIDTH MEGAMENU ==================-->
+                <li class="nav-item dropdown menu-large"><a href="#" data-toggle="dropdown" data-hover="dropdown" data-delay="200" class="dropdown-toggle">All Pages <b class="caret"></b></a>
+                  <ul class="dropdown-menu megamenu">
+                    <li>
+                      <div class="row">
+                        <div class="col-md-6 col-lg-3">
+                          <h5>Home</h5>
+                          <ul class="list-unstyled mb-3">
+                            <li class="nav-item"><a href="index.html" class="nav-link">Option 1: Default Page</a></li>
+                            <li class="nav-item"><a href="index2.html" class="nav-link">Option 2: Application</a></li>
+                            <li class="nav-item"><a href="index3.html" class="nav-link">Option 3: Startup</a></li>
+                            <li class="nav-item"><a href="index4.html" class="nav-link">Option 4: Agency</a></li>
+                            <li class="nav-item"><a href="index5.html" class="nav-link">Option 5: Portfolio</a></li>
+                          </ul>
+                          <h5>About</h5>
+                          <ul class="list-unstyled mb-3">
+                            <li class="nav-item"><a href="about.html" class="nav-link">About us</a></li>
+                            <li class="nav-item"><a href="team.html" class="nav-link">Our team</a></li>
+                            <li class="nav-item"><a href="team-member.html" class="nav-link">Team member</a></li>
+                            <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+                          </ul>
+                          <h5>Marketing</h5>
+                          <ul class="list-unstyled mb-3">
+                            <li class="nav-item"><a href="packages.html" class="nav-link">Packages</a></li>
+                          </ul>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                          <h5>Portfolio</h5>
+                          <ul class="list-unstyled mb-3">
+                            <li class="nav-item"><a href="portfolio-2.html" class="nav-link">2 columns</a></li>
+                            <li class="nav-item"><a href="portfolio-no-space-2.html" class="nav-link">2 columns with negative space</a></li>
+                            <li class="nav-item"><a href="portfolio-3.html" class="nav-link">3 columns</a></li>
+                            <li class="nav-item"><a href="portfolio-no-space-3.html" class="nav-link">3 columns with negative space</a></li>
+                            <li class="nav-item"><a href="portfolio-4.html" class="nav-link">4 columns</a></li>
+                            <li class="nav-item"><a href="portfolio-no-space-4.html" class="nav-link">4 columns with negative space</a></li>
+                            <li class="nav-item"><a href="portfolio-detail.html" class="nav-link">Portfolio - detail</a></li>
+                            <li class="nav-item"><a href="portfolio-detail-2.html" class="nav-link">Portfolio - detail 2</a></li>
+                          </ul>
+                          <h5>User pages</h5>
+                          <ul class="list-unstyled mb-3">
+                            <li class="nav-item"><a href="customer-register.html" class="nav-link">Register / login</a></li>
+                            <li class="nav-item"><a href="customer-orders.html" class="nav-link">Orders history</a></li>
+                            <li class="nav-item"><a href="customer-order.html" class="nav-link">Order history detail</a></li>
+                            <li class="nav-item"><a href="customer-wishlist.html" class="nav-link">Wishlist</a></li>
+                            <li class="nav-item"><a href="customer-account.html" class="nav-link">Customer account / change password</a></li>
+                          </ul>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                          <h5>Shop</h5>
+                          <ul class="list-unstyled mb-3">
+                            <li class="nav-item"><a href="shop-category.html" class="nav-link">Category - sidebar right</a></li>
+                            <li class="nav-item"><a href="shop-category-left.html" class="nav-link">Category - sidebar left</a></li>
+                            <li class="nav-item"><a href="shop-category-full.html" class="nav-link">Category - full width</a></li>
+                            <li class="nav-item"><a href="shop-detail.html" class="nav-link">Product detail</a></li>
+                          </ul>
+                          <h5>Shop - order process</h5>
+                          <ul class="list-unstyled mb-3">
+                            <li class="nav-item"><a href="shop-basket.html" class="nav-link">Shopping cart</a></li>
+                            <li class="nav-item"><a href="shop-checkout1.html" class="nav-link">Checkout - step 1</a></li>
+                            <li class="nav-item"><a href="shop-checkout2.html" class="nav-link">Checkout - step 2</a></li>
+                            <li class="nav-item"><a href="shop-checkout3.html" class="nav-link">Checkout - step 3</a></li>
+                            <li class="nav-item"><a href="shop-checkout4.html" class="nav-link">Checkout - step 4</a></li>
+                          </ul>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                          <h5>Contact</h5>
+                          <ul class="list-unstyled mb-3">
+                            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                            <li class="nav-item"><a href="contact2.html" class="nav-link">Contact - version 2</a></li>
+                            <li class="nav-item"><a href="contact3.html" class="nav-link">Contact - version 3</a></li>
+                          </ul>
+                          <h5>Pages</h5>
+                          <ul class="list-unstyled mb-3">
+                            <li class="nav-item"><a href="text.html" class="nav-link">Text page</a></li>
+                            <li class="nav-item"><a href="text-left.html" class="nav-link">Text page - left sidebar</a></li>
+                            <li class="nav-item"><a href="text-full.html" class="nav-link">Text page - full width</a></li>
+                            <li class="nav-item"><a href="faq.html" class="nav-link">FAQ</a></li>
+                            <li class="nav-item"><a href="404.html" class="nav-link">404 page</a></li>
+                          </ul>
+                          <h5>Blog</h5>
+                          <ul class="list-unstyled mb-3">
+                            <li class="nav-item"><a href="blog.html" class="nav-link">Blog listing big</a></li>
+                            <li class="nav-item"><a href="blog-medium.html" class="nav-link">Blog listing medium</a></li>
+                            <li class="nav-item"><a href="blog-small.html" class="nav-link">Blog listing small</a></li>
+                            <li class="nav-item"><a href="blog-post.html" class="nav-link">Blog Post</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+                <!-- ========== FULL WIDTH MEGAMENU END ==================-->
+                <!-- ========== Contact dropdown ==================-->
+                <li class="nav-item dropdown"><a href="javascript: void(0)" data-toggle="dropdown" class="dropdown-toggle">Contact <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item"><a href="contact.html" class="nav-link">Contact option 1</a></li>
+                    <li class="dropdown-item"><a href="contact2.html" class="nav-link">Contact option 2</a></li>
+                    <li class="dropdown-item"><a href="contact3.html" class="nav-link">Contact option 3</a></li>
+                  </ul>
+                </li>
+                <!-- ========== Contact dropdown end ==================-->
+              </ul>
+            </div>
+            <div id="search" class="collapse clearfix">
+              <form role="search" class="navbar-form">
+                <div class="input-group">
+                  <input type="text" placeholder="Search" class="form-control"><span class="input-group-btn">
+                    <button type="submit" class="btn btn-template-main"><i class="fa fa-search"></i></button></span>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- Navbar End-->
+
+      <div id="heading-breadcrumbs">
+        <div class="container">
+          <div class="row d-flex align-items-center flex-wrap">
+            <div class="col-md-7">
+              <h1 class="h2">Services</h1>
+            </div>
+            <div class="col-md-5">
+              <ul class="breadcrumb d-flex justify-content-end">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active">Services</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="bar">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <h3 class="mt-4">Services 我们提供的服务</h3>
+              <ul id="pills-tab" role="tablist" class="nav nav-pills nav-justified">
+                <li class="nav-item"><a id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true" class="nav-link active">Chinese 普通话</a></li>
+                <li class="nav-item"><a id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false" class="nav-link">English</a></li>
+              </ul>
+              <div id="pills-tabContent" class="tab-content">
+                <div id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" class="tab-pane fade show active">
+
+                <div role="alert" class="alert alert-info h2">華信主要服务地区(Service Area)</div>
+                <p>纽约長岛（Nassau Suffolk)，皇后区(Queens)及布鲁克林区(Brooklyn).其他大纽约地区可来电查询</p>
+
+                <div role="alert" class="alert alert-info h2">房屋物业类型</div>
+                <p>私人(度假,自住,投资出租)的房屋或小型商业地产包括:{多家庭，一家庭,公寓,独立屋,套房，单房,康斗...multi-families ,single house, apartment, condo,co-op ,town house studio</p>
+
+                <div role="alert" class="alert alert-warning h2">服务范围</div>
+                <ol>
+                  <li><h3>私人房产的管理</h3>
+                    <p>托(代)租,维修(护),清洁,保养,装修,绿化以及其他相关事务。具体服务：替收租，账单缴费，代收发信件，监督巡视（客户不在场时），电工，水管，内外整修，油漆，化粪池，剪草裁花草树，清除落叶，移车，更换门，窗或锁，安装自动喷水装置，篱笆。对于才长期合作客户将会提供接送机服务,来美留学生家庭置产家务托管，及其他事务</p>
+                    <ol>
+                    	<li>Tenant applications 為承租戶準備申請手續</li>
+                    	<li>Tenant screening 篩選承租戶</li>
+                    	<li>Credit checks 信用審核</li>
+                    	<li>Verification of employment and salary, Check previous landlord history & references, Perform a criminal background check, Bankruptcies, and Foreclosures就業與收入的審核。向以前的出租人瞭解租房的歷史和相關的事宜，進行刑事背景，破產，抵押贖回權調查。</li>
+                    	<li>Preparation of lease/rental agreements 準備租賃／租賃協議。</li>
+                    	<li>Property inspections (prior to every move in & move out with digital photos of the entire property) 物業檢查（為整個物業的每一次搬進和搬出前提供數碼相片）</li>
+                    	<li>Management of all maintenance & repairs (Lawn care, Landscaping, Pool service) 維護及修理的管理（草坪護理，園林綠化，泳池服務）</li>
+                    	<li>House cleaning 房屋打掃</li>
+                    	<li>Garbage removal 垃圾清除</li>
+                    	<li>Other specific requirements of owner 業主的其他特殊要求</li>
+                    	<li>Monthly bill payments 每月帳單支付</li>
+                    	<li>Monthly financial reporting 每月財務報告</li>
+                    	<li>Analysis of all expenses 所有費用分析</li>
+                    	<li>Accounts payable 應付帳款</li>
+                    	<li>Mortgage payments, Utilities, Repair & maintenance invoices, Homeowner association dues 按揭付款，水，電，煤，電話，垃圾，修理和維修等帳單，業主應收會費</li>
+                    	<li>Accounts receivable 應收帳款</li>
+                    	<li>Financial reporting & analysis of all expenses 財務報告及分析的所有費用</li>
+                    	<li>24 Hour emergency service 24 小時的緊急服務</li>
+                    	<li>Collection of rents 租金的收集</li>
+                    	<li>Late notices & late charges 逾期通知及收費</li>
+                    	<li>Eviction proceedings 驱逐诉讼</li>
+                    	<li>Hold security deposit in a non-interest bearing account 把保證金存在非計息帳戶</li>
+                    	<li>Disposition of tenant's security deposit upon move-out 承租戶搬出後保證金的處置</li>
+                    </ol>
+                  </li>
+                  <li><h3>长岛餐馆买卖代理</h3>
+                    <p>无论买卖中日及其他餐馆，我们将以最专业的态度及合理的收费来服务买卖家。以最快的速度为大家达成交易。因为我们是餐馆行家！</p>
+                  </li>
+                </ol>
+
+                <div role="alert" class="alert alert-info h2">我们的优势</div>
+                <ul>
+                	<li>员工精通英语，国语,广东,福州话，7天/24小时可随时与亚洲客户及中国两岸四地的同胞可通过QQ,Skype,Email,MSN 和其他通讯工具保持联系。</li>
+                	<li>我们会根据客户本身实际需求（长期，短期，暂时，一次性，紧急/自住，出租，投资，度假屋）. 最灵活的為客戶量身定制及提供最有效的服务。</li>
+                	<li>费用最低，服务最好。</li>
+                </ul>
+
+                <div role="alert" class="alert alert-info h2">我们的目标</div>
+                <ol>
+                	<li>客户自住房产的增值.</li>
+                	<li>出租物业获取更高的利润的同时减少屋主责任和义务.</li>
+                	<li>物业管理維护支出大大降低.</li>
+                </ol>
+
+                <div role="alert" class="alert alert-info h2">我们的具体行动</div>
+                <ol>
+                	<li>与客户保持无缝联系（中文专线7/24 小时 ，对于国外客户定时以影相方式汇报屋况，对老年及特殊客户将定时致电和上门巡视）</li>
+                	<li>提高收租率（通常房客會對產業的狀況或服務不滿而不付房租,我们会定期派人作產業巡視,內容包括檢查產業外圍環境的整潔和園藝,和房客溝通並了解他們的需要及解決他們的問題,同時公司將嚴格執行租約條款,按時收租,糾正違約行為）</li>
+                	<li>降低空屋率(為使空屋率降低,本公司以最短的時間整理空屋,放置出租標誌和刊登廣告,並審核申請者的信用和租屋記錄,以確保客戶權益)</li>
+                	<li>严格控制維修支出（我们有长期合作的建材商及自身的維修团队会以最低價錢提供優惠.其他大维修  如果價格超出預估範圍,我們會為業主重新找多家廠商以作比較和評估,让客户自行决定）.</li>
+                </ol>
+
+              </div> <!----- end chinese tab //---->
+
+                <div id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" class="tab-pane fade">Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.<br>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- GET IT-->
+      <div class="get-it">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 text-center p-3">
+              <h3>Do you want cool website like this one?</h3>
+            </div>
+            <div class="col-lg-4 text-center p-3">   <a href="#" class="btn btn-template-outlined-white">Buy this template now</a></div>
+          </div>
+        </div>
+      </div>
+      <!-- FOOTER -->
+      <footer class="main-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3">
+              <h4 class="h6">About Us</h4>
+              <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+              <hr>
+              <h4 class="h6">Join Our Monthly Newsletter</h4>
+              <form>
+                <div class="input-group">
+                  <input type="text" class="form-control">
+                  <div class="input-group-append">
+                    <button type="button" class="btn btn-secondary"><i class="fa fa-send"></i></button>
+                  </div>
+                </div>
+              </form>
+              <hr class="d-block d-lg-none">
+            </div>
+            <div class="col-lg-3">
+              <h4 class="h6">Blog</h4>
+              <ul class="list-unstyled footer-blog-list">
+                <li class="d-flex align-items-center">
+                  <div class="image"><img src="img/detailsquare.jpg" alt="..." class="img-fluid"></div>
+                  <div class="text">
+                    <h5 class="mb-0"> <a href="post.html">Blog post name</a></h5>
+                  </div>
+                </li>
+                <li class="d-flex align-items-center">
+                  <div class="image"><img src="img/detailsquare.jpg" alt="..." class="img-fluid"></div>
+                  <div class="text">
+                    <h5 class="mb-0"> <a href="post.html">Blog post name</a></h5>
+                  </div>
+                </li>
+                <li class="d-flex align-items-center">
+                  <div class="image"><img src="img/detailsquare.jpg" alt="..." class="img-fluid"></div>
+                  <div class="text">
+                    <h5 class="mb-0"> <a href="post.html">Very very long blog post name</a></h5>
+                  </div>
+                </li>
+              </ul>
+              <hr class="d-block d-lg-none">
+            </div>
+            <div class="col-lg-3">
+              <h4 class="h6">Contact</h4>
+              <p class="text-uppercase"><strong>Universal Ltd.</strong><br>13/25 New Avenue <br>Newtown upon River <br>45Y 73J <br>England <br><strong>Great Britain</strong></p><a href="contact.html" class="btn btn-template-main">Go to contact page</a>
+              <hr class="d-block d-lg-none">
+            </div>
+            <div class="col-lg-3">
+              <ul class="list-inline photo-stream">
+                <li class="list-inline-item"><a href="#"><img src="img/detailsquare.jpg" alt="..." class="img-fluid"></a></li>
+                <li class="list-inline-item"><a href="#"><img src="img/detailsquare2.jpg" alt="..." class="img-fluid"></a></li>
+                <li class="list-inline-item"><a href="#"><img src="img/detailsquare3.jpg" alt="..." class="img-fluid"></a></li>
+                <li class="list-inline-item"><a href="#"><img src="img/detailsquare3.jpg" alt="..." class="img-fluid"></a></li>
+                <li class="list-inline-item"><a href="#"><img src="img/detailsquare2.jpg" alt="..." class="img-fluid"></a></li>
+                <li class="list-inline-item"><a href="#"><img src="img/detailsquare.jpg" alt="..." class="img-fluid"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="copyrights">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 text-center-md">
+                <p>&copy; 2018. Your company / name goes here</p>
+              </div>
+              <div class="col-lg-8 text-right text-center-md">
+                <p>Template design by <a href="https://bootstrapious.com/free-templates">Bootstrapious Templates </a></p>
+                <!-- Please do not remove the backlink to us unless you support further theme's development at https://bootstrapious.com/donate. It is part of the license conditions. Thank you for understanding :)-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- Javascript files-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper.js/umd/popper.min.js"> </script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
+    <script src="vendor/waypoints/lib/jquery.waypoints.min.js"> </script>
+    <script src="vendor/jquery.counterup/jquery.counterup.min.js"> </script>
+    <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="vendor/owl.carousel2.thumbs/owl.carousel2.thumbs.min.js"></script>
+    <script src="js/jquery.parallax-1.1.3.js"></script>
+    <script src="vendor/bootstrap-select/js/bootstrap-select.min.js"></script>
+    <script src="vendor/jquery.scrollto/jquery.scrollTo.min.js"></script>
+    <script src="js/front.js"></script>
+  </body>
+</html>
